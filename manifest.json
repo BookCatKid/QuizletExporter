@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Quizlet Set Exporter",
+  "version": "1.0.0",
+  "description": "Fetch a Quizlet set's terms and definitions and exports them.",
+  "permissions": ["scripting","downloads"],
+  "host_permissions": ["https://*.quizlet.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
