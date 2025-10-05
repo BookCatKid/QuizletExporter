@@ -19,6 +19,8 @@ Exporting images or rich text is not currently supported.
 To install the extension manually (which is the only available option right now), see [INSTALL.md](INSTALL.md).
 
 ## Notes and behavior
+
+- The extension does not collect or send any data to any server. All processing is done locally in your browser.
 - The extension extracts the numeric set id from the page URL.
 - The extension uses a quizlet webapi endpoint with credentials included, so it doesn't depend on the webpage being correctly formatted with the correct classNames etc...
 - It of course fetches all terms and definitions using pagination if needed.
