@@ -27,6 +27,7 @@ To install the extension manually (which is the only available option right now)
 - CSV output follows this format exactly (header included):
   "question","answer"
   "...","..."
+- If you want to import the output text into another app, use "," as the term/definition separator and "\n" as the flashcard separator. Include the quotation marks!
 
 ## Limitations & next steps
 - Multi-language or rich text: this parser uses the plainText field. If your set uses richText or images they will not be exported.
